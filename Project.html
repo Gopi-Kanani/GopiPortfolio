@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects | Gopi Kanani</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+ <header class="navbar">
+    <div class="nav-container">
+      <nav>
+        <ul class="nav-links" id="navMenu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Skill.html">Skills</a></li>
+          <li><a href="Project.html" class="active">Projects</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-toggle" onclick="toggleMenu()">☰</div>
+    </div>
+  </header>
+
+
+  <!-- PROJECTS SECTION -->
+  <section class="projects content-section">
+    <div class="container">
+      <h2>My Projects</h2>
+
+      <!-- Project 1 -->
+      <div class="project-card">
+        <div class="project-image">
+          <img src="https://www.shutterstock.com/image-vector/set-web-pages-healthy-eating-260nw-2004891581.jpg" alt="Food Application Screenshot" />
+        </div>
+        <div class="project-info">
+          <h3>Food Application</h3>
+          <p>
+            A full-stack MERN (MongoDB, Express.js, React, Node.js) application designed to make ordering food online seamless and enjoyable. Features include user authentication, browsing restaurant menus, real-time order tracking, and a responsive UI optimized for both desktop and mobile devices. Built with scalability and user experience in mind.
+          </p>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card">
+        <div class="project-image">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeUcLa7xMk0WgwRv0rUYH6pFzlRFhtLHKF8A&s" alt="Plant and Nursery Management System Screenshot" />
+        </div>
+        <div class="project-info">
+          <h3>Plant and Nursery Management System</h3>
+          <p>
+            Developed using .NET Core, this system streamlines the management of nursery inventories, plant care schedules, and customer orders. The application supports employee task tracking, generates detailed reports, and provides an intuitive interface for managing all nursery operations efficiently.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("navMenu").classList.toggle("active");
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | Gopi Kanani</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ======= NAVBAR ======= -->
+  <header class="navbar">
+    <div class="nav-container">
+      <nav>
+        <ul class="nav-links" id="navMenu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="About.html" class="active">About</a></li>
+          <li><a href="Skill.html">Skills</a></li>
+          <li><a href="Project.html">Projects</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-toggle" onclick="toggleMenu()">☰</div>
+    </div>
+  </header>
+
+  <!-- ======= ABOUT SECTION ======= -->
+  <section class="about-section">
+    <div class="about-container fade-in">
+      <h2>Introduction</h2>
+      <p>
+        Hello! I'm <strong>Gopi Kanani</strong>, a passionate software developer who thrives on crafting clean, scalable solutions. I love solving real-world problems and continuously exploring new technologies.
+      </p>
+    </div>
+
+    <div class="about-container fade-in delay-1">
+      <h2>Education</h2>
+      <div class="education">
+        <div class="edu-block">
+          <h3>10th Grade</h3>
+          <p>Crystal School — <strong>93%</strong></p>
+        </div>
+        <div class="edu-block">
+          <h3>12th Grade</h3>
+          <p>Crystal School — <strong>88%</strong></p>
+        </div>
+        <div class="edu-block">
+          <h3>B.Tech in Computer Science</h3>
+          <p>Darshan University — <strong>9.74 CGPI</strong></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-container fade-in delay-2">
+      <h2>Interests</h2>
+      <ul class="interests">
+        <li>Web Development</li>
+        <li>Problem Solving & Competitive Programming</li>
+        <li>Participating in Hackathons and Coding Contests</li>
+        <li>Exploring New Technologies & Frameworks</li>
+        <li>Exploring New Tools</li>
+      </ul>
+    </div>
+  </section>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("navMenu").classList.toggle("active");
+    }
+  </script>
+
+</body>
+</html>

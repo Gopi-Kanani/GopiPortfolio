@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Skills | Gopi Kanani</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+<header class="navbar">
+    <div class="nav-container">
+      <nav>
+        <ul class="nav-links" id="navMenu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Skill.html" class="active">Skills</a></li>
+          <li><a href="Project.html" >Projects</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-toggle" onclick="toggleMenu()">☰</div>
+    </div>
+  </header>
+
+
+  <!-- SKILLS SECTION -->
+  <section class="skills content-section">
+    <div class="container">
+      <h2>Technical Skills</h2>
+      
+      <div class="skill-category">
+        <h3>Programming Languages</h3>
+        <ul class="skill-list">
+          <li>C</li>
+          <li>Python</li>
+          <li>Java</li>
+          <li>JavaScript</li>
+        </ul>
+      </div>
+
+      <div class="skill-category">
+        <h3>Technologies & Frameworks</h3>
+        <ul class="skill-list">
+          <li>ReactJS</li>
+          <li>Node.js</li>
+          <li>.NET Core</li>
+          <li>Express.js</li>
+        </ul>
+      </div>
+
+      <div class="skill-category">
+        <h3>Databases</h3>
+        <ul class="skill-list">
+          <li>MongoDB</li>
+          <li>SQL</li>
+        </ul>
+      </div>
+
+      <h2>Soft Skills</h2>
+      <ul class="soft-skills">
+        <li>Positive Attitude</li>
+        <li>Adaptive Mindset</li>
+        <li>Quick Learner</li>
+         <li>Team Collaboration</li>
+  <li>Problem Solving</li>
+  <li>Time Management</li>
+  <li>Creativity & Innovation</li>
+      </ul>
+    </div>
+  </section>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("navMenu").classList.toggle("active");
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gopi Kanani | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ======= NAVBAR ======= -->
+<!-- ======= NAVBAR ======= -->
+ <header class="navbar">
+    <div class="nav-container">
+      <nav>
+        <ul class="nav-links" id="navMenu">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Skill.html">Skills</a></li>
+          <li><a href="Project.html" >Projects</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-toggle" onclick="toggleMenu()">☰</div>
+    </div>
+  </header>
+
+
+
+
+  <!-- ======= HOME SECTION ======= -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+    <h1 class="typing-name">
+  <span class="typewriter">Gopi Kanani</span>
+</h1>
+
+
+      <h2>Software Developer</h2>
+      <p class="tagline">Building clean code and powerful digital experiences.</p>
+    </div>
+  </section>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("navMenu").classList.toggle("active");
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | Gopi Kanani</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+ <header class="navbar">
+    <div class="nav-container">
+      <nav>
+        <ul class="nav-links" id="navMenu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="About.html" >About</a></li>
+          <li><a href="Skill.html">Skills</a></li>
+          <li><a href="Project.html" >Projects</a></li>
+          <li><a href="Contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-toggle" onclick="toggleMenu()">☰</div>
+    </div>
+  </header>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact content-section">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>If you want to get in touch, feel free to reach out via any of the methods below.</p>
+
+      <div class="contact-info">
+        <div class="contact-item">
+          <strong>Phone:</strong>
+          <a href="tel:+1234567890">+91 7623949557</a>
+        </div>
+        <div class="contact-item">
+          <strong>Email:</strong>
+          <a href="mailto:gopikanani@example.com">gopikanani1510@gmail.com</a>
+        </div>
+        <div class="contact-item">
+          <strong>LinkedIn:</strong>
+          <a href="https://www.linkedin.com/in/gopikanani" target="_blank" rel="noopener noreferrer">
+            linkedin.com/in/gopikanani
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("navMenu").classList.toggle("active");
+    }
+  </script>
+
+</body>
+</html>
